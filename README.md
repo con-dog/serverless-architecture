@@ -17,6 +17,11 @@ I wanted to create a true serverless site that also fit the following criteria:
 - Cross Device: It can work cross devices 
 - Self hosting (A Quine)
 
+![Quine New Instance](Quine%20new%20instance.png)
+![The Quine in Action](The%20Quine%20in%20Action.png)
+![Saving and history](Note%20history.png)
+
+
 ## The How
 To achieve this I created a Bookmarklet (executable browser bookmark), that is a state-remembering quine (It outputs its own source code including current state and this output itself can be run as another program), that can sync across devices (using browser profile bookmark syncing), and to save state you simply drag a new bookmark into the bookmarks bar (easy to use) which is automatically timestamped and named for history purposes.
 
