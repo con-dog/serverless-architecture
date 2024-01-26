@@ -1,5 +1,7 @@
 # TRUE SERVERLESS #
 
+![Serverless site with quines and bookmarklets](quine-github-gif.gif)
+
 ## The Why
 Sick of hearing the constant marketing circle-jerk of "serverless" sites, I set out to test whether a truly server-free client only website is possible.
 
