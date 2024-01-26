@@ -25,6 +25,11 @@ I wanted to create a true serverless site that also fit the following criteria:
 ## The How
 To achieve this I created a Bookmarklet (executable browser bookmark), that is a state-remembering quine (It outputs its own source code including current state and this output itself can be run as another program), that can sync across devices (using browser profile bookmark syncing), and to save state you simply drag a new bookmark into the bookmarks bar (easy to use) which is automatically timestamped and named for history purposes.
 
+## How to run it?
+Basically once you have saved the code to a bookmark, you click the bookmark and it will run the code. Then you just interact with the notepad and write whatever. When you want to save, you drag the link at the bottom to the bookmarks bar and it will auto name it. Then, at a later stage you can click the new bookmark and it will rerun the original program, but with you previous state.
+
+You can share the link with friends and they can run it too. And if you have profile sync on, the bookmarklet should show up in the same browser on your other devices.
+
 ## Bold claims
 I think its a world first? Happy to be proven wrong.
 
