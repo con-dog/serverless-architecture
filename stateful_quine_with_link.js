@@ -50,7 +50,6 @@ javascript: (function () {
       const dateTime = new Date()
         .toLocaleString("en-NZ", options)
         .replace(",", "");
-
       hyperlink.textContent = `Notes: ${dateTime}`;
     });
     hyperlink.addEventListener("mouseout", function () {
